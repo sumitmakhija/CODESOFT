@@ -15,7 +15,7 @@ The Titanic dataset is one of the most famous datasets in the realm of data scie
 2. **Data Preprocessing**: Data preprocessing is an essential step to ensure that the dataset is clean and ready for modeling. This section involves handling missing values, feature engineering, and more.
 3. **Model Training and Evaluation**: Post data preprocessing, a predictive model is trained. The model's performance is then evaluated using appropriate metrics.
 
-[Link to the Notebook](#) (Replace # with the actual link to your Jupyter notebook on GitHub)
+[Link to the Notebook]([#](https://github.com/sumitmakhija/CODESOFT/blob/4fa8e3309a790ebab58c43b5749db5eb4c570247/Titanic%20Survival%20Prediction/titanic_analysis(task1).ipynb))
 
 ---
 
