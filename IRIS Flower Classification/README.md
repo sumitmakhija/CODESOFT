@@ -3,13 +3,13 @@
 3.	<strong>Model Building:</strong> Training various classification algorithms and choosing the best model based on performance metrics.
 4.	<strong>Evaluation:</strong> Evaluating the best model using metrics like accuracy, precision, recall, and the confusion matrix.
 5.	<strong>Conclusion:</strong> Summarizing our findings and results.
---------------------------------------------------------------------------------
-The dataset consists of five columns:
-sepal_length: The length of the sepal -in cm.
-sepal_width: The width of the sepal -in cm.
-petal_length: The length of the petal -in cm.
-petal_width: The width of the petal -in cm.
-species: The species of the Iris flower -either setosa, versicolor, or virginica.
+-----------------------------------------------------------------------------------
+The dataset consists of five columns:<br>
+<strong>sepal_length:</strong> The length of the sepal -in cm.<br>
+<strong>sepal_width:</strong> The width of the sepal -in cm.<br>
+<strong>petal_length:</strong> The length of the petal -in cm.<br>
+<strong>petal_width:</strong> The width of the petal -in cm.<br>
+<strong>species:</strong> The species of the Iris flower -either setosa, versicolor, or virginica.
 ----------------------------------------------------------------------------------------------
 Let's proceed with the data exploration by checking for any missing values and understanding the distribution of each species.
 There are no missing values in the dataset.
