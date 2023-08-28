@@ -4,6 +4,7 @@
 4.	<strong>Evaluation:</strong> Evaluating the best model using metrics like accuracy, precision, recall, and the confusion matrix.
 5.	<strong>Conclusion:</strong> Summarizing our findings and results.
 -----------------------------------------------------------------------------------
+
 The dataset consists of five columns:<br>
 <strong>sepal_length:</strong> The length of the sepal -in cm.<br>
 <strong>sepal_width:</strong> The width of the sepal -in cm.<br>
@@ -11,15 +12,18 @@ The dataset consists of five columns:<br>
 <strong>petal_width:</strong> The width of the petal -in cm.<br>
 <strong>species:</strong> The species of the Iris flower -either setosa, versicolor, or virginica.
 ----------------------------------------------------------------------------------------------
+
 Let's proceed with the data exploration by checking for any missing values and understanding the distribution of each species.
 There are no missing values in the dataset.
 The dataset is balanced with respect to the target variable species. Each species (setosa, versicolor, and virginica) has 50 samples.
 ------------------------------------------------------------------------------
+
 <strong>The dataset has been split into training and test sets. We have:</strong>
 Training set: 120 samples
 Test set: 30 samples
 The next step is to train machine learning models. We'll experiment with several classification algorithms to determine which one 
 -------------------------------------------------------------------------------------------
+
 performs best for our dataset. Some of the algorithms we'll consider are:
 1.	Logistic Regression
 2.	Decision Tree Classifier
@@ -27,6 +31,7 @@ performs best for our dataset. Some of the algorithms we'll consider are:
 4.	Support Vector Machine (SVM)
 5.	k-Nearest Neighbors (k-NN)
 -----------------------------------------------------------
+
 <strong>Confusion Matrix:</strong>
 A confusion matrix is used to understand the performance of the algorithm, especially for binary classification. In our case, it's a multi-class classification, so we have a 3x3 matrix.
 
