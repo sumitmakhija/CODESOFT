@@ -17,34 +17,34 @@ import pandas as pd
 data = pd.read_csv('/mnt/data/advertising.csv')
 data.head()
 
-Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 A summary of the data is generated to understand its distribution.
 Missing values, if any, are identified.
 Scatter plots are used to visualize the relationships between advertising costs (TV, Radio, and Newspaper) and sales.
 -------------------------------------------------
-Data Splitting:
+## Data Splitting:
 The dataset is split into training (80%) and testing (20%) sets for model training and validation.
 Building a Sales Prediction Model
 A linear regression model is trained on the training data.
 Predictions are made on the test set and the model is evaluated using metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R2 score.
 -------------------------------------------------
-Interpretation of Coefficients:
+## Interpretation of Coefficients:
 The coefficients and intercept of the trained linear regression model are extracted for interpretation.
 ---------------------------------------------
-Residual Analysis:
+## Residual Analysis:
 The residuals (difference between actual and predicted values) are plotted against the fitted values to check for any patterns or outliers.
 --------------------------------------------------
-Feature Engineering:
+## Feature Engineering:
 Interaction terms are added to the dataset to potentially improve the model's predictive power.
 ---------------------------------------------------
-Cross-validation:
+## Cross-validation:
 Cross-validation is performed to assess the model's performance across different subsets of the training data.
 ----------------------------------------------------------------
-Correlation Analysis:
+## Correlation Analysis:
 A correlation matrix is generated to understand the relationships between different features.
 --------------------------------------------------------------
-Accuracy Check
+## Accuracy Check
 The Mean Absolute Error (MAE) is calculated to evaluate the model's accuracy.
 ----------------------------------------------------------------
-Conclusion
+## Conclusion
 This project showcases the potential of machine learning in making informed predictions about sales based on advertising data. By understanding the relationships between advertising expenditures and sales, businesses can optimize their strategies and achieve better outcomes.
