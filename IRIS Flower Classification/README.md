@@ -4,7 +4,7 @@
 4.	<strong>Evaluation:</strong> Evaluating the best model using metrics like accuracy, precision, recall, and the confusion matrix.
 5.	<strong>Conclusion:</strong> Summarizing our findings and results.
 --------------------------------------------------------------------------------
-<strong>The dataset consists of five columns:</strong>
+The dataset consists of five columns:
 •	sepal_length: The length of the sepal (in cm).
 •	sepal_width: The width of the sepal (in cm).
 •	petal_length: The length of the petal (in cm).
