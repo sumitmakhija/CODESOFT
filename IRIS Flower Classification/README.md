@@ -2,7 +2,7 @@
 2.	<strong>Data Preprocessing:</strong> Checking for missing values, handling any anomalies in the dataset, and splitting the data into training and test sets.
 3.	<strong>Model Building:</strong> Training various classification algorithms and choosing the best model based on performance metrics.
 4.	<strong>Evaluation:</strong> Evaluating the best model using metrics like accuracy, precision, recall, and the confusion matrix.
-5.	<strong>Conclusion:</strong> Summarizing our findings and results.\
+5.	<strong>Conclusion:</strong> Summarizing our findings and results.
 --------------------------------------------------------------------------------
 <strong>The dataset consists of five columns:</strong>
 •	sepal_length: The length of the sepal (in cm).
