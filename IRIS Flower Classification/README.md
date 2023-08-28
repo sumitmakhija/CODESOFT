@@ -1,37 +1,65 @@
-1.	<strong>Data Exploration and Visualization:</strong> Understanding the structure of the dataset and visualizing the distribution of different species.
-2.	<strong>Data Preprocessing:</strong> Checking for missing values, handling any anomalies in the dataset, and splitting the data into training and test sets.
-3.	<strong>Model Building:</strong> Training various classification algorithms and choosing the best model based on performance metrics.
-4.	<strong>Evaluation:</strong> Evaluating the best model using metrics like accuracy, precision, recall, and the confusion matrix.
-5.	<strong>Conclusion:</strong> Summarizing our findings and results.
------------------------------------------------------------------------------------
+# IRIS FLOWER CLASSIFICATION 🌸
 
-The dataset consists of five columns:<br>
-<strong>sepal_length:</strong> The length of the sepal -in cm.<br>
-<strong>sepal_width:</strong> The width of the sepal -in cm.<br>
-<strong>petal_length:</strong> The length of the petal -in cm.<br>
-<strong>petal_width:</strong> The width of the petal -in cm.<br>
-<strong>species:</strong> The species of the Iris flower -either setosa, versicolor, or virginica.
-----------------------------------------------------------------------------------------------
+The Iris dataset is a popular dataset for introductory machine learning tasks. In this project, we aim to classify Iris flowers into different species based on their sepal and petal measurements.
 
-Let's proceed with the data exploration by checking for any missing values and understanding the distribution of each species.
-There are no missing values in the dataset.
-The dataset is balanced with respect to the target variable species. Each species (setosa, versicolor, and virginica) has 50 samples.
-------------------------------------------------------------------------------
+## Table of Contents
 
-<strong>The dataset has been split into training and test sets. We have:</strong>
-Training set: 120 samples
-Test set: 30 samples
-The next step is to train machine learning models. We'll experiment with several classification algorithms to determine which one 
--------------------------------------------------------------------------------------------
+- [Introduction](#introduction)
+- [Data Exploration and Visualization](#data-exploration-and-visualization)
+- [Data Preprocessing](#data-preprocessing)
+- [Model Building](#model-building)
+- [Evaluation](#evaluation)
+- [Conclusion](#conclusion)
+- [Prerequisites](#prerequisites)
+- [How to Run](#how-to-run)
+- [Contributing](#contributing)
+- [License](#license)
 
-performs best for our dataset. Some of the algorithms we'll consider are:
-1.	Logistic Regression
-2.	Decision Tree Classifier
-3.	Random Forest Classifier
-4.	Support Vector Machine (SVM)
-5.	k-Nearest Neighbors (k-NN)
------------------------------------------------------------
+## Introduction
 
-<strong>Confusion Matrix:</strong>
-A confusion matrix is used to understand the performance of the algorithm, especially for binary classification. In our case, it's a multi-class classification, so we have a 3x3 matrix.
+The Iris dataset contains measurements for 150 iris flowers from three different species. The three classes in the Iris dataset are:
+- Iris-setosa
+- Iris-versicolour
+- Iris-virginica
 
+## Data Exploration and Visualization
+
+In this section, we explore the dataset to understand its structure, features, and distribution. Various visualizations are employed to get insights from the data.
+
+## Data Preprocessing
+
+Before feeding the data to our model, necessary preprocessing steps such as normalization, handling missing values, and encoding categorical variables are performed.
+
+## Model Building
+
+A suitable machine learning model is chosen and trained using the processed data.
+
+## Evaluation
+
+The performance of the model is evaluated using appropriate metrics to determine its accuracy and reliability.
+
+## Conclusion
+
+Summary of the findings, model performance, and potential improvements for future iterations.
+
+## Prerequisites
+
+- Python 3.x
+- Jupyter Notebook
+- Necessary libraries: (You can list down the libraries used in your project)
+
+## How to Run
+
+1. Clone this repository.
+2. Navigate to the cloned directory.
+3. Install the required packages using pip: `pip install -r requirements.txt` (if you have a `requirements.txt` file).
+4. Open Jupyter Notebook: `jupyter notebook`
+5. Navigate to `iris_classification_project(Task2).ipynb` and run the cells.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
